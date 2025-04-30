@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestor de Gastos</string>
+    <string name="add_expense">Agregar Gasto</string>
+    <string name="expense_list">Lista de Gastos</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="settings">Configuración</string>
+</resources> 

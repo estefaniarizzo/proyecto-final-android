@@ -1,0 +1,114 @@
+# Archivos generados por Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Archivos generados por el sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de compilación
+/app/build/
+/build/
+/gradlew
+/gradlew.bat
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+
+# Archivos de configuración local
+local.properties
+*.log
+
+# Archivos de caché
+.cache/
+*.cache
+
+# Archivos de respaldo
+*.bak
+*.swp
+*~
+
+# Archivos de dependencias
+node_modules/
+jspm_packages/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/qodana.xml
+
+# Archivos de Android Studio
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.navigation/
+output.json
+
+# Archivos de Keystore
+*.jks
+*.keystore
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Archivos de configuración de Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Archivos de configuración de Android
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.navigation/
+output.json
+*.hprof 
