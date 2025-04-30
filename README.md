@@ -33,7 +33,7 @@ Una aplicación Android moderna para gestionar tus gastos personales con intelig
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/gestorgastos.git
+git clone https://github.com/estefaniarizzo/proyecto-final-android.git
 ```
 
 2. Abre el proyecto en Android Studio
