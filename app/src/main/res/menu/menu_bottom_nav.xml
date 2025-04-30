@@ -24,4 +24,9 @@
         android:id="@+id/navigation_settings"
         android:icon="@drawable/ic_settings"
         android:title="Ajustes" />
+
+    <item
+        android:id="@+id/navigation_finanzas_inteligentes"
+        android:icon="@drawable/ic_finanzas"
+        android:title="Finanzas Inteligentes" />
 </menu> 

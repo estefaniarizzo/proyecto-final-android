@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742654413124",
+    "project_id": "gestordedatos-5214a",
+    "storage_bucket": "gestordedatos-5214a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742654413124:android:7d25f6e15d4cd9613caf11",
+        "android_client_info": {
+          "package_name": "com.example.gestorgastos.R"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT9pdikmZn7yQYSfJdQ32gGmO-htqIe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,30 +4,79 @@ Una aplicación Android moderna para gestionar tus gastos personales con intelig
 
 ## Características 🌟
 
-- 📊 **Seguimiento de Gastos**: Registra y categoriza tus gastos e ingresos fácilmente
+- 🔐 **Autenticación Segura**:
+  - Inicio de sesión con Google
+  - Registro de usuarios
+  - Sincronización de datos en la nube
+  - Múltiples dispositivos
+
+- 📊 **Seguimiento de Gastos**: 
+  - Registra y categoriza tus gastos e ingresos fácilmente
+  - Categorías personalizables
+  - Subcategorías
+  - Etiquetas personalizadas
+
 - 🤖 **Inteligencia Artificial**: 
   - Categorización automática de gastos
   - Predicción de próximos gastos
   - Recomendaciones personalizadas de ahorro
   - Detección de patrones de gasto
-- 📈 **Estadísticas**: Visualiza tus gastos con gráficos interactivos
-- 🌙 **Modo Oscuro**: Interfaz adaptable a tus preferencias
-- 🔔 **Notificaciones**: Mantente al día con tus gastos
+
+- 📈 **Estadísticas y Reportes**:
+  - Visualiza gráficos de gastos por categoría
+  - Exportación a PDF/Excel
+  - Reportes mensuales personalizados
+  - Compartir resúmenes por WhatsApp/Email
+
+- 💰 **Presupuestos y Objetivos**:
+  - Establece presupuestos por categoría
+  - Alertas de límites de gasto
+  - Seguimiento de objetivos de ahorro
+  - Recordatorios de pagos recurrentes
+
+- 📷 **Gestión de Comprobantes**:
+  - Escanea recibos con la cámara
+  - Almacena fotos de comprobantes
+  - OCR para extraer información automáticamente
+  - Organización por fecha y categoría
+
+- 🌍 **Soporte Multi-moneda**:
+  - Múltiples monedas
+  - Conversión automática
+  - Ideal para viajes
+  - Historial de tasas de cambio
+
+- 📱 **Widgets y Acceso Rápido**:
+  - Widget para agregar gastos
+  - Resumen de gastos en la pantalla principal
+  - Modo offline
+  - Sincronización automática
+
+- 🌙 **Personalización**:
+  - Modo oscuro
+  - Temas personalizables
+  - Notificaciones configurables
+  - Interfaz adaptable
 
 ## Tecnologías Utilizadas 🛠
 
 - Kotlin
 - Android Jetpack
 - Room Database
+- Firebase Authentication
+- Firebase Cloud Firestore
 - TensorFlow Lite
 - ML Kit
 - Material Design 3
 - MPAndroidChart
+- CameraX
+- ML Kit Text Recognition
 
 ## Requisitos 📋
 
 - Android 6.0 (API 23) o superior
-- Conexión a Internet (para algunas características de IA)
+- Conexión a Internet (para sincronización y características de IA)
+- Cuenta de Google (para inicio de sesión)
 
 ## Instalación 💻
 
@@ -38,27 +87,40 @@ git clone https://github.com/tu-usuario/gestorgastos.git
 
 2. Abre el proyecto en Android Studio
 
-3. Sincroniza el proyecto con Gradle
+3. Configura Firebase:
+   - Crea un proyecto en Firebase Console
+   - Agrega tu aplicación Android
+   - Descarga y agrega el archivo `google-services.json`
 
-4. Ejecuta la aplicación en tu dispositivo o emulador
+4. Sincroniza el proyecto con Gradle
+
+5. Ejecuta la aplicación en tu dispositivo o emulador
 
 ## Uso 📱
 
-1. **Registro de Gastos**:
+1. **Autenticación**:
+   - Inicia sesión con tu cuenta de Google
+   - Tus datos se sincronizarán automáticamente
+   - Accede desde múltiples dispositivos
+
+2. **Registro de Gastos**:
    - Toca el botón "+" para agregar un nuevo gasto
    - Ingresa el monto y la descripción
    - La IA sugerirá automáticamente una categoría
+   - Escanea recibos para llenado automático
    - Marca si es un ingreso o gasto
 
-2. **Estadísticas**:
+3. **Estadísticas y Reportes**:
    - Visualiza gráficos de gastos por categoría
    - Revisa tendencias mensuales
-   - Analiza patrones de gasto
+   - Exporta reportes en diferentes formatos
+   - Comparte resúmenes con otros
 
-3. **Insights de IA**:
+4. **Insights de IA**:
    - Recibe predicciones de gastos
    - Obtén recomendaciones de ahorro
    - Descubre patrones en tus gastos
+   - Recibe alertas de gastos inusuales
 
 ## Contribuir 🤝
 

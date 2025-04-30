@@ -2,7 +2,16 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/navigation_home">
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.gestorgastos.ui.login.LoginFragment"
+        android:label="Bienvenido">
+        <action
+            android:id="@+id/action_loginFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_home"
@@ -28,5 +37,10 @@
         android:id="@+id/navigation_ai_insights"
         android:name="com.example.gestorgastos.ui.ai.AIInsightsFragment"
         android:label="Insights IA" />
+
+    <fragment
+        android:id="@+id/navigation_finanzas_inteligentes"
+        android:name="com.example.gestorgastos.ui.finanzas.FinanzasInteligentesFragment"
+        android:label="Finanzas Inteligentes" />
 
 </navigation> 

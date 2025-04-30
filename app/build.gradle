@@ -78,4 +78,15 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-} 
+
+    // Firebase Auth y Google Sign-In
+    implementation 'com.google.firebase:firebase-auth:22.3.0'
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+
+    // Exportación a PDF y Excel
+    implementation 'com.itextpdf:itext7-core:7.2.3'
+    implementation 'org.apache.poi:poi:5.2.3'
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
+}
+
+apply plugin: 'com.google.gms.google-services' 
